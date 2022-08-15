@@ -124,3 +124,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+#Configure DJango App for Heroku
+import django_on_heroku
+django_on_heroku.settings(locals())
